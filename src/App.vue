@@ -1,15 +1,14 @@
 <template>
-  <div>aaaaa</div>
+  <div id="app">
+    <h1>黑马头条</h1>
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      arr: 1,
-    };
-  },
+  name: "App",
 };
 </script>
 
-<style></style>
+<style scoped lang="less"></style>
